@@ -3,7 +3,7 @@ $query = "select izin.*, guru.nama as nama_guru, bk.nama as nama_bk
           from izin
           inner join guru on guru.id = izin.guru_id 
           inner join bk on bk.id = izin.bk_id 
-          where siswa_id = 3;";
+          where siswa_id = 2;";
 $query2 = "select count(id) as izin_digunakan from izin where siswa_id = 3 and is_approved = 3;";
 $query3 = "select value from settings where id = 1;";
 $run_sql = mysqli_query($is_connect, $query);
