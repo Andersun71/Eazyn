@@ -24,7 +24,7 @@
                   <img src="assets/images/logos/Logo1-eazyn.png" width="155" alt="">
                 </a>
                 <p class="text-center">Easy Come, Easy Go</p>
-                <form action="proses_login.php" method="post">
+                <form action="proses_login.php" method="POST">
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Username</label>
                     <input type="text" name="username" placeholder="Username" class="form-control" id="exampleInputEmail1">
