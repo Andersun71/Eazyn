@@ -102,7 +102,7 @@
                       <p class="mb-0 fs-3">My Account</p>
                     </a>
                     
-                    <a href="./login.php" class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
+                    <a href="./l.php" class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
                   </div>
                 </div>
               </li>
