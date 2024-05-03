@@ -2,8 +2,11 @@
 session_start(); // ketika mulai session harus ada sintak ini dulu
 if (!isset($_SESSION['id'])) {
 header('location: login.php');
-
 }
+//  else {
+//    $query10 = "UPDATE siswa SET last_login = now() WHERE id =" .$_SESSION['id'];
+//    $result10 = mysqli_query($is_connect, $query10);
+//  }
 
 require_once("config/connect.php");
 $query = "select izin.*, guru.nama as nama_guru, bk.nama as nama_bk 
@@ -17,6 +20,7 @@ $run_sql = mysqli_query($is_connect, $query);
 $run_sql2 = mysqli_query($is_connect, $query2);
 $run_sql3 = mysqli_query($is_connect, $query3);
 //var_dump($sql); //buat check isi variable
+
 ?>
 
 
